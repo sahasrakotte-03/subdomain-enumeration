@@ -1,0 +1,6 @@
+{
+  "name": "Subdomain Enumeration",
+  "description": "Authorized security assessment prototype for subdomain enumeration, passive OSINT discovery, DNS analysis, vulnerability triage, and reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

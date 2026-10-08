@@ -9,7 +9,7 @@ const dnsPromises = dns.promises;
 dns.setServers(['8.8.8.8', '1.1.1.1']);
 
 const app = express();
-const PORT = 3000;
+   const PORT = parseInt(process.env.PORT || '3000', 10);
 
 app.use(express.json());
 
